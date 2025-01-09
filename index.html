@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="src/style.css"/>
+  <title>File Compressor</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <img src="src/assets/logo(1).png" class="logo" alt="Molybden logo"/>
+  </div>
+  <h1>File Compressor</h1>
+  <p>Please select a text file you want to compress or decompress.</p>
+  <div class="row">
+    <input type="file" id="fileInput" accept=".txt" />
+  </div>
+  <div class="row">
+    <button id="compress-btn" type="button">Compress File</button>
+    <button id="decompress-btn"  type="button">Decompress File</button>
+  </div>
+  <h3 id="outputMsg"></h3>
+  <p id="output"></p>
+  <script type="module" src="src/main.js"></script>
+</div>
+</body>
+</html>
